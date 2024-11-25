@@ -5,12 +5,12 @@ import { initializeApp } from "firebase/app";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyAIWDuqIElUpqNhESNFnejeLasdo-juMYc",
-  authDomain: "desafio-firebase-1-c449a.firebaseapp.com",
-  projectId: "desafio-firebase-1-c449a",
-  storageBucket: "desafio-firebase-1-c449a.firebasestorage.app",
-  messagingSenderId: "110639734582",
-  appId: "1:110639734582:web:23f2f2be8a1bdb58fd9d97"
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+  authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+  projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_FIREBASE_APP_ID,
 };
 
 // Initialize Firebase

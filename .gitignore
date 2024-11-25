@@ -13,7 +13,8 @@ dist
 dist-ssr
 coverage
 *.local
-firebaseConfig.js
+gb.env
+.env
 
 /cypress/videos/
 /cypress/screenshots/
